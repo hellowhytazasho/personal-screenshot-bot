@@ -10,8 +10,6 @@ async function makeScreenshot() {
       throw err;
     }
   });
-
-  return { success: true };
 }
 
 module.exports = {

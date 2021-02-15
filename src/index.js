@@ -15,10 +15,10 @@ bot.start((ctx) => {
 });
 
 bot.hears('📷', async (ctx) => {
-  const funcResult = await makeScreenshot();
+  await makeScreenshot();
   const userId = ctx.update.message.from.id;
 
-  if (funcResult.success && userId === MY_USER_ID) {
+  if (userId === MY_USER_ID) {
     ctx.replyWithAnimation({
       source: 'screenshot/out.jpeg',
       type: 'photo',
