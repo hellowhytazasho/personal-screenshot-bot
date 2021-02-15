@@ -1,0 +1,8 @@
+{
+  "telegraf": {
+    "botToken": "BOT_TOKEN"
+  },
+  "logger": {
+    "level": "LOG_LEVEL"
+  }
+}
