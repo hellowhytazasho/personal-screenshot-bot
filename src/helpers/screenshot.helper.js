@@ -1,5 +1,5 @@
-const screenshot = require('screenshot-desktop')
-const fs = require('fs')
+const screenshot = require('screenshot-desktop');
+const fs = require('fs');
 
 async function makeScreenshot() {
   const img = await screenshot({
@@ -9,8 +9,9 @@ async function makeScreenshot() {
     if (err) {
       throw err;
     }
-  })
-  return { success: true }
+  });
+
+  return { success: true };
 }
 
 module.exports = {
