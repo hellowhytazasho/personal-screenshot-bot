@@ -22,7 +22,6 @@ bot.hears('📷', async (ctx) => {
     ctx.replyWithAnimation({
       source: 'screenshot/out.jpeg',
       type: 'photo',
-      text: 'asd',
     });
   }
   logger.info(ctx.update.message.from);
