@@ -23,6 +23,8 @@ bot.hears('📷', async (ctx) => {
       source: 'screenshot/out.jpeg',
       type: 'photo',
     });
+  } else {
+    ctx.reply('My creator @taras_kush');
   }
   logger.info(ctx.update.message.from);
 });
