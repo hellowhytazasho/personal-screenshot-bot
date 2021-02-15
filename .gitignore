@@ -116,4 +116,8 @@ dist
 
 file.xls
 
+# config
 config/local.*
+
+# image
+*.jpeg
