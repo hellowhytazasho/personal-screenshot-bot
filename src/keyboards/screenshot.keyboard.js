@@ -1,4 +1,4 @@
-function GetScreenshotKeyboard() {
+function getScreenshotKeyboard() {
   return {
     reply_markup: {
       keyboard: [
@@ -12,5 +12,5 @@ function GetScreenshotKeyboard() {
 }
 
 module.exports = {
-  GetScreenshotKeyboard,
+  getScreenshotKeyboard,
 };
